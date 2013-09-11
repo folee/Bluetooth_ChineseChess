@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, ActicityMain!</string>
+    <string name="app_name">中国象棋</string>
+    
+    <string name="sure_to_stop_app">您确认要退出游戏吗？</string>
+    
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="JoinGame">加入游戏</string>
+    <string name="CreateGame">创建游戏</string>
+    
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">开始扫描蓝牙设备...</string>
+    <string name="select_device">选择一个蓝牙设备建立连接</string>
+    <string name="none_paired">当前没有可用配对设备</string>
+    <string name="none_found">没有找到可用设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">开始扫描新的设备</string>
+    
+    <string name="contact_author_email">software.wu@yahoo.com</string>
+</resources>

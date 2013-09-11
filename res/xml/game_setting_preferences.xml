@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="游戏设置" >
+
+    <PreferenceCategory android:title="游戏参数设置" >
+        <CheckBoxPreference
+            android:key="sound_toggle"
+            android:summaryOn="游戏声音已开启"
+            android:summaryOff="游戏声音已关闭"
+            android:title="游戏声音" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="activate_game"
+            android:summary="激活游戏后才能设置游戏等级"
+            android:title="激活游戏" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:dependency="activate_game"
+            android:key="gamelevel_setting"
+            android:negativeButtonText="取消"
+            android:positiveButtonText="确定"
+            android:summary="设置游戏的难度"
+            android:title="游戏等级" 
+            android:dialogTitle="游戏等级"
+            android:entries="@array/game_level_array_entry"
+            android:entryValues="@array/game_level_array_value"
+            android:defaultValue="10">
+        </ListPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其他设置" >
+        <Preference
+            android:key="complaints_proposals"
+            android:summary="反馈建议给我们"
+            android:title="投诉建议" >
+        </Preference>
+        <!--  
+        <Preference
+            android:key="purchase_game"
+            android:summary="Google Market购买正版游戏"
+            android:title="购买游戏" >
+        </Preference>
+        -->
+        <Preference
+            android:key="about_game"
+            android:summary="关于中国象棋(蓝牙对战)"
+            android:title="关于游戏" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen><!-- <Preference android:summary="游戏官方微博" android:title="微博" android:key="game_weibo"></Preference> -->

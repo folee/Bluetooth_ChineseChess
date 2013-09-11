@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <!--游戏等级设置需要要到的数组 -->  
+    <string-array name="game_level_array_entry">  
+        <item>一级棋士</item>  
+        <item>二级棋士</item>  
+        <item>三级棋士</item>    
+        <item>大师</item>    
+        <item>特级大师</item>    
+    </string-array>  
+    <string-array name="game_level_array_value">  
+        <item>10</item>  
+        <item>20</item>  
+        <item>30</item>    
+        <item>40</item>    
+        <item>50</item>    
+    </string-array>  
+</resources>  

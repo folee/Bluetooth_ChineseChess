@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/BluetoothActivity"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_view"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    >
+    
+
+<!-- start had paired -->
+<TableLayout android:id="@+id/TableLayout01" 
+	android:orientation="vertical"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="125dip" 
+	android:layout_marginLeft="19dip" 
+	android:layout_marginRight="19dip"
+	android:stretchColumns="*" android:background="#66aabb"
+	android:visibility="gone">
+	
+	<TableRow android:background="#FFFF00" android:layout_margin="2dip" android:padding="0dip">
+		<TextView android:text="玩家信息"
+			android:id="@+id/TextView01_GameTitle" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:textColor="#440000"
+			android:textSize="8pt"
+			android:gravity="center_vertical"
+			android:paddingLeft="6dip"
+			android:height="40dip">
+		</TextView>
+	</TableRow>
+	<TableRow android:background="#FFFFFF" android:layout_marginRight="2dip" android:layout_marginLeft="2dip" android:layout_marginBottom="2dip" android:layout_marginTop="0dip">
+		<TextView android:text="玩家1"
+			android:id="@+id/TextView02_CreateGameMan" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:textColor="#440000"
+			android:textSize="8pt"
+			android:gravity="center_vertical"
+			android:paddingLeft="6dip"
+			android:height="40dip">
+		</TextView>
+	</TableRow>	
+	<TableRow android:background="#FFFFFF" android:layout_marginRight="2dip" android:layout_marginLeft="2dip" android:layout_marginBottom="2dip" android:layout_marginTop="0dip">
+		<TextView android:text="玩家2"
+			android:id="@+id/TextView03_JoinGameMan" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:textColor="#440000"
+			android:textSize="8pt"
+			android:gravity="center_vertical"
+			android:paddingLeft="6dip"
+			android:height="40dip">
+		</TextView>
+	</TableRow>	
+</TableLayout>
+
+<Button android:text="开始游戏" 
+	android:id="@+id/Button03_StartGame" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="30dip" 
+	android:layout_marginLeft="15dip" 
+	android:layout_marginRight="15dip"
+	android:visibility="gone">
+</Button>
+<!-- End had paired -->
+
+
+
+<Button android:text="@string/CreateGame" 
+	android:id="@+id/Button01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="190dip" 
+	android:layout_marginLeft="15dip" 
+	android:layout_marginRight="15dip"
+	android:visibility="visible">
+</Button>
+
+<Button android:text="@string/JoinGame" 
+	android:id="@+id/Button02" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dip" 
+	android:layout_marginLeft="15dip" 
+	android:layout_marginRight="15dip"
+	android:visibility="visible">
+</Button>
+
+</LinearLayout>

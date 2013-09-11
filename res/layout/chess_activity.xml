@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:admobsdk="http://schemas.android.com/apk/res/com.topkc.chinesechess"
+	android:id="@+id/GameViewLayout"
+    android:orientation="vertical"
+	android:background="@drawable/game_view_background"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    >
+    
+    <!--  
+    android:background="@drawable/game_view_background"
+    -->
+</LinearLayout>

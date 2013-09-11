@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/WelcomeMenuLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome_view"
+    >
+
+	<ImageButton
+		android:id="@+id/ImageButton01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/welcome_menu_button_start"
+		android:layout_marginTop="208dip"
+		android:layout_marginLeft="12dip">	
+	</ImageButton>
+	
+	<ImageButton
+		android:id="@+id/ImageButton02"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/welcome_menu_button_bluetooth"
+		android:layout_marginLeft="12dip"
+		android:layout_marginTop="13dip">
+	</ImageButton>
+	
+	<ImageButton
+		android:id="@+id/ImageButton03"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/welcome_menu_button_loading"
+		android:layout_marginLeft="12dip"
+		android:layout_marginTop="13dip">
+	</ImageButton>
+	
+	<ImageButton
+		android:id="@+id/ImageButton04"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/welcome_menu_button_setting"
+		android:layout_marginLeft="12dip"
+		android:layout_marginTop="13dip">
+	</ImageButton>
+	
+
+	
+	<ImageButton
+		android:id="@+id/ImageButton06"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/welcome_menu_button_exit"
+		android:layout_marginLeft="12dip"
+		android:layout_marginTop="13dip">
+	</ImageButton>
+		
+	
+</LinearLayout>
